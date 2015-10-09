@@ -1,34 +1,33 @@
-
 <ion-view>
-	
+
 	<ion-content class="padding">
 	<!-- <section class="container">
 		<figure class="chart">
-    		<img class="logo" src="../img/small1.png">
-    		<svg width="100" height="100">
-      			<circle class="outer" cx="100" cy="100" r="100"/>
-    		</svg>
-  		</figure>
-  	</section> -->
+			<img class="logo" src="../img/small1.png">
+			<svg width="100" height="100">
+				<circle class="outer" cx="100" cy="100" r="100"/>
+			</svg>
+		</figure>
+	</section> -->
 
-  	<section class="stage">
-  		<figure class="ball">
-	    	<span class="shadow"></span>
-	    	<span class="iris"></span>
-  		</figure>
+	<section class="stage">
+		<figure class="ball">
+			<span class="shadow"></span>
+			<span class="iris"></span>
+		</figure>
 	</section>
 		<h3>What's your number?</h3>
 		<h6> Don't worry, we'll never display it publicly.</h6>
 		<ion-list>
-		      <div class="row">
-		      		<div class="item item-code">
-		 				(+91)
-		        	</div>
-		          	<label class="item item-input">
-		            	<input type="tel" placeholder="Phone number" ng-model="data.number" required>
-		            	<span class="ion-checkmark-circled" ng-show="display"></span>
-		          	</label>
-		      </div>
+			<div class="row">
+					<div class="item item-code">
+						(+91)
+					</div>
+					<label class="item item-input">
+						<input type="tel" placeholder="Phone number" ng-model="data.number" required>
+						<span class="ion-checkmark-circled" ng-show="display"></span>
+					</label>
+			</div>
 
 		</ion-list>
 		<div class="btn"><button class="button button-outline button-positive" ng-click="verify(data)">Send OTP</button></div>

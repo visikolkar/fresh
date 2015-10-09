@@ -1,13 +1,24 @@
 
 <ion-view>
 	<ion-content class="padding">
-		<h4>Enter the OTP you just Received</h4>
-		<div class="list">
-		  <label class="item item-input item-floating-label">
-		    <span class="input-label">OTP</span>
-		    <input type="tel" placeholder="" ng-model="data.number">
-		  </label>
-		</div>
-      <button class="button button-outline button-positive" ng-click="otp(data)">Verify</button>
+		<section class="stage">
+			<figure class="ball">
+				<span class="shadow"></span>
+				<span class="iris"></span>
+			</figure>
+		</section>
+			<h3>Just one last stop...</h3>
+			<h6> Enter the OTP you just recieved.</h6>
+		<ion-list>
+		<!-- <label class="item item-input item-floating-label">
+			<span class="input-label">OTP</span>
+			<input type="tel" placeholder="" ng-model="data.number">
+		</label> -->
+			<label class="item item-input item-otp">
+				<input type="tel" placeholder="" ng-model="data.number" required>
+				<span class="ion-checkmark-circled" ng-show="display"></span>
+			</label>
+		</ion-list>
+		<div class="btn"><button class="button button-outline button-positive button-otp" ng-click="otp(data)">Verify</button></div>
 	</ion-content>
 </ion-view>
