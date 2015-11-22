@@ -21,11 +21,12 @@
 		<ion-list>
 			<div class="row">
 					<div class="item item-code">
-						(+91)
+						<img src="../img/India-Flag-icon_80_2_30x30.png">
 					</div>
 					<label class="item item-input">
-						<input type="tel" placeholder="Phone number" ng-model="data.number" required>
-						<span class="ion-checkmark-circled" ng-show="display"></span>
+						<input type="tel" placeholder="Phone number" ng-model="data.number" ng-change="showCheckMark(data)">
+						<i class = "icon ion-checkmark-circled custom-icon" ng-show="display"></i>
+						<i class = "icon ion-close-circled custom-icon" ng-show="error"></i>
 					</label>
 			</div>
 

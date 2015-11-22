@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.essentials.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>FreshWater</name>
+	<name>Tap</name>
 	<description>
 		An Essentials-inc App.
-		</description>
-	<author email="visikolkar@gmail.com" href="http://ionicframework.com/">
+	</description>
+	<author email="visikolkar@gmail.com" href="http://vishwakolkar.wordpress.com/">
 			Vishwa Kolkar
-		</author>
+	</author>
 	<content src="index.html"/>
 	<access origin="*"/>
 	<preference name="webviewbounce" value="false"/>

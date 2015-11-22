@@ -122,6 +122,14 @@ input{
 	font-size: 16px!important;
 }
 
+.ion-checkmark-circled.custom-icon{
+	color: #66ff99;
+}
+
+.ion-close-circled.custom-icon {
+	color: #ff4d4d;
+}
+
 .item.item-code{
 	border-right: none;
 	border-top: none;
@@ -130,7 +138,7 @@ input{
 	width: 80px;
 	height: 50px;
 	background: transparent;
-	color: #fff;
+	/*color: #fff;*/
 	text-align: center;
 }
 
@@ -155,7 +163,6 @@ input{
 }
 
 .main-background{
-	/*background: url("http://slwatertech.com/images/Mineral_water_plant_project/5.jpg");*/
 	background: url("../img/testImage.jpg");
 }
 
